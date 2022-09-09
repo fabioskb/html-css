@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: darkgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0%;
+        }
+
+        header {
+            background-color: white;
+            padding: 5px;
+            margin: 10px 0%;
+            margin-top: 0%;
+        }
+
+        header > h1 {
+            text-align: center;
+        }
+
+        h1 {
+            width: 80%;
+            padding: 15px;
+            margin-left: 10%;
+            border-radius: 6px;
+            box-shadow: 2px 2px 9px 5px rgba(0, 0, 0, 0.481);
+        }
+
+        nav {
+            background-color: rgb(87, 87, 87);
+            padding: 3px;
+            margin: 3px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.465);
+        }
+
+        nav > a {
+            text-decoration: none;
+            margin-right: 15px;
+            color: white;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 3px 2px 6px 2px rgba(0, 0, 0, 0.479);
+        }
+
+        section{
+            margin-bottom: 10px;
+        }
+
+        #noticias > h2 {
+            background-color: lightgrey;
+            padding: 3px;
+            margin: 0px;
+            border-top-left-radius: 10px;
+        }
+
+        article {
+            background-color: lightgrey;
+            text-align: justify;
+            padding: 2px 4px;
+            margin: 0px;
+            border-bottom-right-radius: 10px;
+        }
+
+        article > p {
+            text-indent: 20px;
+        }
+
+        article > aside {
+            background-color: darkgrey;
+            /* padding: 0% 1px; */
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+
+        }
+
+        footer > p {
+            margin: 0%;
+        }
+
+        div#bola {
+            background-color: white;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            Esportes Política Tecnologia
+        </section>
+        <section id="noticias">
+            <h2>Notícias Sobre o Brasil</h2>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi labore nostrum, facilis architecto fugiat. Temporibus aut ducimus, eligendi delectus saepe accusamus, aperiam voluptatibus dolorum atque, autem consequatur ea necessitatibus!</p>
+                <aside>
+                    <p>Escrito por Antônio Carlos</p>
+                </aside>
+            </article>
+            <!-- <article>
+                
+            </article> -->
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy;CursoemVídeo</p>
+    </footer>
+
+    <div id="bola"></div>
+</body>
+</html>

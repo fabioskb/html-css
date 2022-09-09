@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <!--imagens-->
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+    </picture>
+
+    <!--esta parte aqui foi um pequeno desafio-->
+    <h2>VSCode Logo</h2>
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/vscode-p.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="imagens/vscode-m.png" type="image/png">
+        <img src="imagens/vscode-g.png" alt="VSCode logo flexível">
+    </picture>
+
+    <!--audio-->
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudio</p>
+    <p></p><audio src="midia/guanacast-33.mp3" controls autoplay></audio></p>
+    <audio preload="metadata" controls title="podcast do Guanabara">
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <p>Infelismente seu nnavegador não suporta áudio <a href="midia/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">Clique aqui para baixar o arquivo MP3</a></p>
+    </audio>
+</body>
+</html>
