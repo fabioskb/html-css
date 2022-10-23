@@ -1,0 +1,74 @@
+        @import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+        body {
+            min-height: 100vh;
+            background-color: white;
+            margin: auto;
+            min-width: 320px;
+            border: 1px solid black;
+
+        }
+
+        header {
+            background-color: black;
+            color: white;
+            padding: 10vh 0px 10vh 0px;
+        }
+
+        h1 {
+            font-family: 'Passion One';
+            font-size: 3em;
+        }
+
+        header>h1,
+        header>p {
+            text-align: center;
+            margin: auto;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-weight: bolder;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 8vh 0px 8vh 10px;
+            line-height: 2em;
+        }
+
+        section>p {
+            padding: 15px;
+            font: normal 1.5em 'Sriracha', 'Serif';
+        }
+
+        #back1 {
+            background: black url('../imagens/background001.jpg') bottom right no-repeat fixed;
+            background-size: cover;
+            min-height: 400px;
+        }
+
+        #back2 {
+            background: black url('../imagens/background002.jpg') top right no-repeat fixed;
+            background-size: cover;
+            min-height: 400px;
+        }
+
+        .custom_p {
+            max-width: 280px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.28);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
