@@ -1,0 +1,14 @@
+No input:number usamos os parametros min e max em vez 
+de min/maxlength. Temos tambem o step='0.1' que fraciona 
+os numeros no valor passado ao clicar nas setas do 
+campo.
+
+No input:month poderemos passar o value="" em numeros 
+e traços, tipo, "2010-06" onde 2010 é o ano e 06 é o 
+mês.
+
+No input:date, em value podemos passar "ano-mes-dia" 
+(valores numericos).
+
+No input:time, em value podemos passar "hora:minutos" 
+ou "hh:mm:ss".

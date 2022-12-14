@@ -1,0 +1,51 @@
+SELECT:
+Cria um campo de seleção no form
+
+Ex sintax dentro de <form>:
+<p>
+    <label for="isel">Selecionar</label>
+    <select name="sel" id="isel">
+        <option value="" selected>--- Escolha ---</option>
+        <optgroup label="Esportes">
+            <option value="fut">Futebol</option>
+            <option value="hand">Handebol</option>
+        </optgroup>
+        <optgroup label="Televisão">
+            <option value="faustão">Faustão</option>
+            <option value="ratinho">Ratinho</option>
+        </optgroup>
+    </select>
+</p>
+
+* O parametro selected de <option> seleciona a opção por padrão ao 
+carregar a página.
+* <optgroup> cria um grupo de <option> (opções) dentro do select, e, 
+o parametro label do <optgroup> cria uma legenda do grupo dentro do 
+select.
+
+DATALIST:
+Cria uma lista para ser mostrada dentro de um campo, quando digitando
+ou clicando na seta do campo.
+Sintax:
+
+<label for="iest">Estudo:</label>
+<input name="est" id="iest" list="lstest">
+<datalist id="lstest">
+    <option>Matemática</option>
+    <option>Português</option>
+    <option>Biológia</option>
+    <option>Fisíca</option>
+</datalist>
+
+A lista é relacionada com o <input> pelo parametro list="" passando o 
+valor do id="" da <datalist>.
+
+TEXTAREA:
+Cria um campo de texto para uma mensagem, por exemplo.
+
+Sintax exemplo:
+<label for="imsg">Mensagem:</label><br>
+<textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+* Os parametros cols e rows é o número de colunas e linhas da área de 
+texto.

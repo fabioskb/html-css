@@ -1,0 +1,6 @@
+Quando está lidando com inputs Radio button de mesmo grupo, precisamos ter em 
+mente que eles precisam está com o mesmo name="", assim eles fazem parte do 
+mesmo grupo, e, marcando um desmarca o outro.
+
+O parametro checked marca radio buttons e checkbox automaticamente ao carregar 
+a página.

@@ -1,0 +1,10 @@
+OUTPUT:
+Sintax exemplo:
+
+    <input type="text" name="" id="in" oninput="out.innerHTML = in.value
+    <output name="" id="out"></output>
+
+    * Você cria o <output> com um id="", e então, passa esse id em um dos 
+    parametros 'on...' nos inputs. O id do output/inputs também será usado 
+    no codigo js, pode usar funções js. Você coda da maneira que quiser e 
+    necessitar no html em JavaScript.

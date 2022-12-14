@@ -1,0 +1,9 @@
+Para desabilitar a opção de auto completar basta usar "off" no parametro 
+autocomplete na tag <form>
+
+Envelopando a etiqueta do input com label e passando o o id do input no 
+parametro for no label, cria uma relação entre a etiqueta e o objeto do 
+formulário, ISSO É MUITO IMPORTANTE!
+
+No parametro action da tag <form>, você passa o caminho do arquivo para 
+onde vai os dados do formulário quando precionar o botão enviar.

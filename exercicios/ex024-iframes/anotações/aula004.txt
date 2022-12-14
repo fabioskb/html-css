@@ -1,0 +1,1 @@
+Para navegar em links da própria página, basta colocar o parametro name com um nome na tag <iframe>, e então, adicionar este nome no parametro target do <a> (link). Ao clicar no link na página o conteúdo será exibido no iframe na própria página.

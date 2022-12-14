@@ -1,0 +1,1 @@
+Com iframes você pode adicionar mapas do Google Maps e Waze, vídeos do Youtube e Vimeo. Basta ir em um desses sites, escolher um vídeo/localiação, procurar a opção de compartilhamento > incorporação, copiar o código (html) e colar no seu HTML.

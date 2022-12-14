@@ -1,0 +1,1 @@
+Apenas passe o endereço local da pag no parâmetro src da tag <iframe>.

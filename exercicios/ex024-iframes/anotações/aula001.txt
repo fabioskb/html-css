@@ -1,0 +1,2 @@
+iframes significa frames inline ("Quadros em linha"). Cria uma janela (um quadro) na mesma linha no seu site.
+

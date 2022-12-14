@@ -1,0 +1,9 @@
+iframes têm problemas com a busca do do Google, pois o robô do Google não conseque acessar os iframes.
+
+Outtro incoveniente é a acessabilidade, os leitores de tela não conseguem ler os iframes.
+
+Também, em certod navegadores, você não consegue voltar a página clicando no ícone de seta para esquerda no navegador.
+
+Se o site não for responsivo também terá problemas.
+
+Quando você sites de terceiros no iframe do seu site, automaticamente você abre uma porta do seu site para este site. Isso pode ser perigoso, pois há certos ataques, como Cross-site e XSS, que podem utilizar-se disso. Cuidado ao utilizar sites de terceiros em iframes.

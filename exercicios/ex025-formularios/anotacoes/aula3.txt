@@ -1,0 +1,10 @@
+Na tag <form> usa-se o parametro method, ele pode receber apenas dois 
+valores GET (o padrão) e POST.
+
+GET: Utiliza-se quando não for dados sensiveis, nem for envio de arquivos 
+ou os dados não forem maiores que 3000 bytes (equivalente a 3000 letras).
+
+POST: Utiliza-se quando for ao contrario de GET ou quando não quiser que 
+os dados apareçam na url ao envia-los. Lembrando que mesmo com os dados 
+não aparecendo na url, vocẽ poderar ver ao inspecionar a pagina na opção 
+network > 'selecionar o arquivo de dados' > headers.

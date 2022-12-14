@@ -1,0 +1,3 @@
+Para deixar o iframe mais seguro, você pode utilizar os parâmetros sandbox="sandbox" e refererpolicy="no-referer" na tag <iframe>. Isso bloqueia tudo dentro do iframe.
+
+Para permitir sites de terceiro utilizar certas coisas no iframe do seu site, basta trocar o "sandbox" do parametro sandbox por "allow-same-origin" allow-'algo que deseja permitir' e não mexer no parametro refererpolicy, assim o site só terá acesso ao que você permitir.

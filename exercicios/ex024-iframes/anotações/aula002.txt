@@ -1,0 +1,7 @@
+As configurações adicionadas no CSS sobrepõe as adicionadas nos parâmetros da tag <iframe> no HTML.
+    
+iframe tem tamanho padrão de 300x150
+    
+Tudo que adicionarmos dentro da tag <iframe></iframe> será exibido no navegador, caso não seja compatível com iframes. Bom para passar uma mensagem de incompatibilidade ou link.
+
+O parâmetro scrolling pode receber no, yes e auto na tag <iframe>. Mas nem todos navegadores são compatíveis.

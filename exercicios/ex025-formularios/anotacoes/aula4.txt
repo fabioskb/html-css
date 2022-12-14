@@ -1,0 +1,8 @@
+Parametros da tag <input>:
+required -> Só permite submeter os dados se tiverem dados nos campos.
+minlength="5" -> Número minimo de caracteres a serem digitados.
+maxlength="5" -> Número maximo de caracteres a serem digitados.
+size="10" -> Tamanho da campo.
+placeholder="mensagem" -> Algo para informar o usuario no campo.
+autocomplete="username" -> identifica o auto completar, é necessario ter 
+autocomplete="on" na tag <form>

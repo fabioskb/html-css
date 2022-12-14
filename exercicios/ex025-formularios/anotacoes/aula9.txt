@@ -1,0 +1,13 @@
+Cores:
+input:color -> Pode passar no value="" uma cor em RGB (#00FF00).
+
+Range (Barra de Nível):
+input:range -> os parâmetros min e max setam os valores minimo e maximo de 
+cada nível da barra e value="" seta o valor inicial da barra.
+
+* Lembre-se que em nem todos navegadores e dispositivos os recursos acima 
+irão funcionar, por isso é bom sempre testar na maior quantidade possivel.
+
+File (arquivo):
+input:file -> É necessario utilizar o método POST no parâmetro method da 
+tag <form>.

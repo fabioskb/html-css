@@ -1,0 +1,1 @@
+Com o parâmetro srcdoc="" na tag <iframe>, você pode passar códigos em html nesse parâmetro que serão mostrados no iframe ao abrir a página.

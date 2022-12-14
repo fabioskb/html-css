@@ -1,0 +1,3 @@
+Nem todos navegadores são compatíveis com os componentes de formulários
+HTML. É bom testar na maior quantidade de navegadores e dispositivos 
+que você conseguir.

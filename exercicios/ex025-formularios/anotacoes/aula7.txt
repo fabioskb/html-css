@@ -1,0 +1,8 @@
+Lembrar de estudar expressão regulares (Regex), pois as vezes, é necessario
+em formulários HTML e outros. Em HTML, regex começa com um ^ e termina com 
+um $ no parametro pattern="^'aqui vai a expressão regular'$".
+EX: pattern="^\(\d{2}\) \d{4,5}-\d{4}$" (para validar um telefone)
+
+A tag <fieldset></fieldset> agrupa campos semelhantes de forms em um unico 
+campo. Usando a tag <legend> dentro do fieldset, cria uma legenda no fiel-
+dset.
