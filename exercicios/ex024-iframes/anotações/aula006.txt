@@ -1,3 +1,5 @@
+
+
 iframes têm problemas com a busca do do Google, pois o robô do Google não conseque acessar os iframes.
 
 Outtro incoveniente é a acessabilidade, os leitores de tela não conseguem ler os iframes.
