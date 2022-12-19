@@ -45,6 +45,9 @@ menu {
 
 menu>ul {
     display: block;
+}
+
+menu>ul>li {
     text-align: center;
 }
 
