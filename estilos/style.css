@@ -4,92 +4,112 @@
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 
-html, body {
-    /* width: 95.95vw; */
+html,
+body {
+    width: 100vw;
     height: 100vh;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 header {
     background-color: gray;
+    text-align: center;
     color: white;
 }
 
-header > h1 {
+header>h1 {
+    margin-left: 0px;
+    margin-right: 0px;
     padding: 10px;
 }
 
-header > p {
-    width: 50%;
+header>p {
+    width: 70vw;
     display: inline-block;
     text-align: center;
 }
 
-header > span#icon-menu {
-    display: inline-block;
+header>span#icon-menu {
+    display: block;
     text-align: center;
     font-weight: bold;
-    font-size: 2em;
-    /* margin-right: -5px; */
-    padding: 10px;
-    /* border: 1px solid lightgray; */
+    font-size: 1.5em;
+    width: 100vw;
+    margin: 3px 0px;
+    padding: 5px 0px;
 }
 
-header > span#icon-menu:hover {
-    text-decoration: underline;
+header>span#icon-menu:hover {
+    background-color: rgb(255, 255, 255);
+    color: gray;
     cursor: pointer;
 }
 
-header > menu#menu {
+header>menu#menu {
     display: none;
 }
 
-header > menu#menu dl {
+header>menu#menu dl {
     display: block;
 }
 
-header > menu#menu dl > dd {
+header>menu#menu dl>dd {
     list-style-type: none;
 }
 
-header > menu#menu dl > dd > a {
+header>menu#menu dl>dd>a {
     display: block;
     font-weight: bold;
     text-decoration: none;
     color: wheat;
 }
 
-header > menu#menu dl > dd > a:hover {
+header>menu#menu dl>dd>a:hover {
     text-decoration: underline;
 }
 
 header a {
-    /* text-decoration: none; */
     font-weight: bold;
     color: whitesmoke;
 }
 
 main {
+    
+}
+
+main>section {
+    display: block;
+    margin: auto;
+    width: 90vw;
     margin-bottom: 10px;
-}
-
-main > section > article > h2 {
     margin-top: 10px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.451);
+}
+
+main>section>article>h2 {
+    margin-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding: 3px 8px;
     background: linear-gradient(to right, gray, white);
+    border-radius: 8px;
 }
 
-main > section > article > p {
-    text-align: justify;
-    padding: 8px;
-    margin: 8px;
+main>section>article>p {
+    padding-right: 0px;
+    text-indent: 5px;
+    padding: 10px;
 }
 
-main > section > article > ol, ul {
-    text-align: left;
-    margin-left: 40px;
+main>section>article>ol,
+ul {
+    list-style-type: none;
+    margin-left: 10px;
 }
 
 main>section>article a {
@@ -106,6 +126,7 @@ main>section>article a:hover {
 footer {
     background-color: gray;
     color: white;
+    text-align: center;
     padding: 10px;
 }
 
@@ -137,4 +158,14 @@ div#github {
     width: 30px;
     height: 30px;
     border-radius: 100%;
+}
+
+footer>a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+footer>a>div:hover {
+    transform: translate(-5px, -5px);
+    transition: transform 0.5s;
 }
