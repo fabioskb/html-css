@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5 e CSS3</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML5 & CSS3</h1>
+        <span id="icon-menu" class="material-icons md-24" onclick="show()">menu</span>
+        <menu id="menu">
+            <dl class="items">
+                <dt>Referencias</dt>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">Git do Guanabara</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">W3C Standarts</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">Whatwg Living Standart</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">W3Schools</a></dd>
+                <!-- <dt>Ajuda</dt>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">link 1</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">link 2</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">link 3</a></dd>
+                <dd><a href="http://" target="_blank" rel="noopener noreferrer">link 4</a></dd> -->
+            </dl>
+        </menu>
+    </header>
+    <main>
+        <section>
+            <article id="desafios">
+                <h2>Desafios</h2>
+                <p>Aqui você encontrar a maioria dos desafios (arquivos) feitos nos, até aqui, quatro módulos do curso HTML5 e CSS3 do <a href="https://www.cursoemvideo.com" target="_blank">Curso em Vídeo</a>. São ao todo quatorze desafios.</p>
+                <p>Esses desafios foram feitos por mim, <a href="#">Fabio Santos</a>, no decorrer do curso. Até o momento, são eles:</p>
+                <ol type="1">
+                    <li><a href="desafios/d001/" target="_blank">Desafio das mensagens</a></li>
+                    <li><a href="desafios/d002" target="_blank">Desafio das imagens</a></li>
+                    <li><a href="desafios/d003/" target="_blank" rel="noopener noreferrer">Desafio do mapa</a></li>
+                    <li><a href="desafios/d004/" target="_blank" rel="noopener noreferrer">Desafio dos emojis</a></li>
+                    <li><a href="desafios/d006/" target="_blank" rel="noopener noreferrer">Desafio Tags em HTML</a></li>
+                    <li><a href="desafios/d005/" target="_blank" rel="noopener noreferrer">Desafio Redes Sociais</a></li>
+                    <li><a href="desafios/d007/" target="_blank" rel="noopener noreferrer">Desafio imagem flexível</a></li>
+                    <li><a href="desafios/d008/" target="_blank" rel="noopener noreferrer">Desafio da Navegação</a></li>
+                    <li><a href="desafios/d009/" target="_blank" rel="noopener noreferrer">Desafio Vídeos</a></li>
+                    <li><a href="desafios/d010/" target="_blank" rel="noopener noreferrer">Desafio Android</a></li>
+                    <li><a href="#">Desafio ? (indisponível)</a></li>
+                    <li><a href="desafios/d012/" target="_blank" rel="noopener noreferrer">Desafio Cordel Moderno</a></li>
+                    <li><a href="desafios/d013/" target="_blank" rel="noopener noreferrer">Desafio Tabelas</a></li>
+                    <li><a href="desafios/d014/" target="_blank" rel="noopener noreferrer">Desafio Tabela Notas</a></li>
+
+                </ol>
+
+            </article>
+            <article id="exercicios">
+                <h2>Exercícios</h2>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+
+    <script>
+
+        function show() {
+            let icon = document.getElementById("span#icon-menu")
+            let referLinks = document.querySelector("#menu")
+
+                if (referLinks.style.display == "none") {
+                    referLinks.style.display = "block"
+                } else {
+                    referLinks.style.display = "none"
+                }
+            
+        }
+
+    </script>
+</body>
+
+</html>
