@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/* Versão Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header>span#icon-menu {
+        display: none;
+    }
+
+    header > menu#menu {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    header > menu#menu a {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
+
+    main>section {
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 720px;
+    }
+}
+
+/* Telas maiores */
+@media screen and (min-width: 992px) {
+    header > span#icon-menu {
+        display: none;
+    }
+
+    header > h1 {
+        padding-bottom: 0px;
+    }
+
+    main>section {
+        width: 900px;
+    }
+
+    header > menu#menu {
+        display: block;
+        padding: 10px 0px;
+    }
+
+    header > menu#menu a {
+        display: block;
+        margin: auto;
+        width: 200px;
+    }
+}

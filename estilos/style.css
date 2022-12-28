@@ -11,6 +11,7 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 header {
@@ -29,6 +30,14 @@ header>p {
     width: 70vw;
     display: inline-block;
     text-align: center;
+}
+
+header > p > a {
+    text-decoration: none;
+}
+
+header > p > a:hover {
+    text-decoration: underline;
 }
 
 header>span#icon-menu {
@@ -61,9 +70,11 @@ header>menu#menu dl>dd {
 
 header>menu#menu dl>dd>a {
     display: block;
+    margin: auto;
+    color: wheat;
     font-weight: bold;
     text-decoration: none;
-    color: wheat;
+    width: 200px;
 }
 
 header>menu#menu dl>dd>a:hover {
@@ -166,6 +177,7 @@ footer>a {
 }
 
 footer>a>div:hover {
-    transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px) rotate(360deg);
     transition: transform 0.5s;
+    
 }
